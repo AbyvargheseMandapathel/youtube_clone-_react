@@ -4,7 +4,7 @@ import {Navbar , Feed , VideoDetail , SearchFeed , ChannelDetail } from './compo
 const App = () => {
   return (
     <BrowserRouter>
-            <Box sx = {{background:'#0000'}}>
+            <Box sx = {{background:'#000'}}>
                 <Navbar />
                 <Routes>
                     <Route path ="/" exact element = {<Feed />}/>
