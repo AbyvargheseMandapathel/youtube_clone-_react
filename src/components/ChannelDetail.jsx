@@ -36,8 +36,7 @@ const ChannelDetail = () => {
             sm:'100px',
           }
         }}></Box>
-        <Videos videos={videos}/>
-        
+        <Videos videos={videos}/>       
       </Box>
     </Box>
   )
